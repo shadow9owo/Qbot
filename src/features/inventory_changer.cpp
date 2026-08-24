@@ -97,7 +97,7 @@ namespace {
         constexpr uintptr_t m_pWeaponServices = C_BasePlayerPawn::m_pWeaponServices;
         constexpr uintptr_t m_hMyWeapons   = CPlayer_WeaponServices::m_hMyWeapons;
         constexpr uintptr_t m_hActiveWeapon = CPlayer_WeaponServices::m_hActiveWeapon;
-        constexpr uintptr_t m_pClippingWeapon = C_CSPlayerPawn::m_pClippingWeapon;
+        constexpr uintptr_t m_pClippingWeapon = CPlayer_WeaponServices::m_hActiveWeapon;
 
         // Attributes
         constexpr uintptr_t m_AttributeList = C_EconItemView::m_AttributeList;

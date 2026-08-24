@@ -16,6 +16,10 @@
 #include "../features/bullet_tracer.hpp"
 #include "../features/config_manager.hpp"
 
+#include "../vendor/imgui/IconsFontAwesome6.h"
+#include "../src/fonts/roboto_medium.h"
+#include "../src/fonts/fa_solid_900.h"
+
 #include <iostream>
 
 extern IMGUI_IMPL_API LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
@@ -67,10 +71,6 @@ namespace DX11Hook {
     // =====================================================================
     // Premium GUI — Accent Colors & Helpers
     // =====================================================================
-
-    #include "../vendor/imgui/IconsFontAwesome6.h"
-    #include "../src/fonts/roboto_medium.h"
-    #include "../src/fonts/fa_solid_900.h"
 
     static float g_animTime = 0.0f;
     static float g_tabAnim[8] = { 1.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f };

@@ -1,12 +1,12 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-03-25 18:37:01.419122700 UTC
+// 2026-08-23 02:05:36.776298400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod cs2_dumper {
     pub mod schemas {
         // Module: resourcesystem.dll
-        // Class count: 58
+        // Class count: 59
         // Enum count: 2
         pub mod resourcesystem_dll {
             // Alignment: 1
@@ -35,14 +35,13 @@ pub mod cs2_dumper {
             //
             // Metadata:
             // MResourceTypeForInfoType
-            pub mod InfoForResourceTypeCNmIKRig {
+            pub mod InfoForResourceTypeCResponseRulesList {
             }
             // Parent: None
-            // Field count: 0
-            //
-            // Metadata:
-            // MResourceTypeForInfoType
-            pub mod InfoForResourceTypeCResponseRulesList {
+            // Field count: 2
+            pub mod AABBWS_t {
+                pub const m_vMinBounds: usize = 0x0; // VectorWS
+                pub const m_vMaxBounds: usize = 0xC; // VectorWS
             }
             // Parent: None
             // Field count: 0
@@ -374,6 +373,13 @@ pub mod cs2_dumper {
             // Metadata:
             // MResourceTypeForInfoType
             pub mod InfoForResourceTypeIPulseGraphDef {
+            }
+            // Parent: None
+            // Field count: 0
+            //
+            // Metadata:
+            // MResourceTypeForInfoType
+            pub mod InfoForResourceTypeCVDataItemDefs {
             }
             // Parent: None
             // Field count: 5

@@ -353,7 +353,7 @@ namespace ESP {
                 // WEAPON NAME
                 uintptr_t weapon = 0;
                 if (Hooks::g_bEspWeaponName.load() &&
-                    Memory::SafeRead(pawn + cs2_dumper::schemas::client_dll::C_CSPlayerPawn::m_pClippingWeapon, weapon) &&
+                    Memory::SafeRead(pawn + cs2_dumper::schemas::client_dll::CPlayer_WeaponServices::m_hActiveWeapon, weapon) &&
                     Memory::IsValidPtr(weapon)) {
                     uintptr_t entityIdentity = 0;
                     if (Memory::SafeRead(weapon + Constants::Offsets::ENTITY_IDENTITY, entityIdentity) &&
