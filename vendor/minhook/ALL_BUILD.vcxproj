@@ -25,9 +25,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9D41B12C-1A79-3FF9-8CF3-1EB2C40F2271}</ProjectGuid>
+    <ProjectGuid>{F71405E9-BCFD-3D22-9AD6-1BDBB9362DF7}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -108,11 +107,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" "-BC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" --check-stamp-file "C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/shadowdev/Documents/GitHub/Qbot -BC:/Users/shadowdev/Documents/GitHub/Qbot --check-stamp-file C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +119,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" "-BC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" --check-stamp-file "C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/shadowdev/Documents/GitHub/Qbot -BC:/Users/shadowdev/Documents/GitHub/Qbot --check-stamp-file C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +132,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" "-BC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" --check-stamp-file "C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/shadowdev/Documents/GitHub/Qbot -BC:/Users/shadowdev/Documents/GitHub/Qbot --check-stamp-file C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +145,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" "-BC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" --check-stamp-file "C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/shadowdev/Documents/GitHub/Qbot -BC:/Users/shadowdev/Documents/GitHub/Qbot --check-stamp-file C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,8 +158,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -168,14 +167,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\ZERO_CHECK.vcxproj">
-      <Project>{9BBD0042-C3FF-3B33-9FC8-F9F48C3F1F70}</Project>
+    <ProjectReference Include="C:\Users\shadowdev\Documents\GitHub\Qbot\ZERO_CHECK.vcxproj">
+      <Project>{458ECC2A-F950-30CA-A9A2-5F113B281A06}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\minhook.vcxproj">
-      <Project>{48C0DDCB-C450-39B0-B313-86E39FA10733}</Project>
+    <ProjectReference Include="C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\minhook.vcxproj">
+      <Project>{1992240D-4449-377B-A57A-CA1AFA17666A}</Project>
       <Name>minhook</Name>
     </ProjectReference>
   </ItemGroup>

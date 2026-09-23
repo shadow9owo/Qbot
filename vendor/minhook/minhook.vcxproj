@@ -22,31 +22,30 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{48C0DDCB-C450-39B0-B313-86E39FA10733}</ProjectGuid>
+    <ProjectGuid>{1992240D-4449-377B-A57A-CA1AFA17666A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>minhook</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
@@ -59,199 +58,228 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">minhook.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">minhook.x64d</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\Release\</OutDir>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">minhook.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">minhook.x64</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\MinSizeRel\</OutDir>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">minhook.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">minhook.x64</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\RelWithDebInfo\</OutDir>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">minhook.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">minhook.x64</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\include;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\include;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <BufferSecurityCheck></BufferSecurityCheck>
-      <CallingConvention></CallingConvention>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
       </ExceptionHandling>
-      <FloatingPointModel></FloatingPointModel>
-      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
       <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <SupportJustMyCode></SupportJustMyCode>
-      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug";minhook_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\include;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";minhook_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\include;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\include;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\include;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
-    <Lib>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-    </Lib>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/Debug/minhook.x64d.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/dll_resources/MinHook.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/Debug/minhook.x64d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\include;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\include;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-      <BufferSecurityCheck></BufferSecurityCheck>
-      <CallingConvention></CallingConvention>
       <ExceptionHandling>
       </ExceptionHandling>
-      <FloatingPointModel></FloatingPointModel>
-      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
       <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <SupportJustMyCode></SupportJustMyCode>
-      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";minhook_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\include;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";minhook_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\include;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\include;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\include;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
-    <Lib>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-    </Lib>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/Release/minhook.x64.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/dll_resources/MinHook.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/Release/minhook.x64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\include;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\include;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-      <BufferSecurityCheck></BufferSecurityCheck>
-      <CallingConvention></CallingConvention>
       <ExceptionHandling>
       </ExceptionHandling>
-      <FloatingPointModel></FloatingPointModel>
-      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
       <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <SupportJustMyCode></SupportJustMyCode>
-      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";minhook_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\include;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";minhook_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\include;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\include;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\include;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
-    <Lib>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-    </Lib>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/MinSizeRel/minhook.x64.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/dll_resources/MinHook.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/MinSizeRel/minhook.x64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\include;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\include;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-      <BufferSecurityCheck></BufferSecurityCheck>
-      <CallingConvention></CallingConvention>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
       </ExceptionHandling>
-      <FloatingPointModel></FloatingPointModel>
-      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
       <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <SupportJustMyCode></SupportJustMyCode>
-      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";minhook_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\include;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";minhook_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\include;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\include;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\include;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hde;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
       <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
-    <Lib>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-    </Lib>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/RelWithDebInfo/minhook.x64.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/dll_resources/MinHook.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/RelWithDebInfo/minhook.x64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" "-BC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" --check-stamp-file "C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/shadowdev/Documents/GitHub/Qbot -BC:/Users/shadowdev/Documents/GitHub/Qbot --check-stamp-file C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -259,12 +287,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" "-BC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" --check-stamp-file "C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/shadowdev/Documents/GitHub/Qbot -BC:/Users/shadowdev/Documents/GitHub/Qbot --check-stamp-file C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,12 +300,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" "-BC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" --check-stamp-file "C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/shadowdev/Documents/GitHub/Qbot -BC:/Users/shadowdev/Documents/GitHub/Qbot --check-stamp-file C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -285,12 +313,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" "-BC:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat" --check-stamp-file "C:/Users/navea/OneDrive/שולחן העבודה/project1/mindcheat/vendor/minhook/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/shadowdev/Documents/GitHub/Qbot -BC:/Users/shadowdev/Documents/GitHub/Qbot --check-stamp-file C:/Users/shadowdev/Documents/GitHub/Qbot/vendor/minhook/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -298,21 +326,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\cmake\minhook-config.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\buffer.c" />
-    <ClCompile Include="C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hook.c" />
-    <ClCompile Include="C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\trampoline.c" />
-    <ClCompile Include="C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\vendor\minhook\src\hde\hde64.c" />
+    <ClCompile Include="C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\buffer.c" />
+    <ClCompile Include="C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hook.c" />
+    <ClCompile Include="C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\trampoline.c" />
+    <ClCompile Include="C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\src\hde\hde64.c" />
+    <ResourceCompile Include="C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\dll_resources\MinHook.rc" />
+    <None Include="C:\Users\shadowdev\Documents\GitHub\Qbot\vendor\minhook\dll_resources\MinHook.def" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\navea\OneDrive\שולחן העבודה\project1\mindcheat\ZERO_CHECK.vcxproj">
-      <Project>{9BBD0042-C3FF-3B33-9FC8-F9F48C3F1F70}</Project>
+    <ProjectReference Include="C:\Users\shadowdev\Documents\GitHub\Qbot\ZERO_CHECK.vcxproj">
+      <Project>{458ECC2A-F950-30CA-A9A2-5F113B281A06}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
